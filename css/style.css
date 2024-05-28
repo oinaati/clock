@@ -1,0 +1,45 @@
+body {
+    background-image: url(../css/images/background.png);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: rgb(148, 148, 148);
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+.container-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.clock-block {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid rgba(156, 156, 156, 0.24);
+    backdrop-filter: blur(55px);
+    box-shadow: 13px 20px 26px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 13px 20px 26px -8px rgba(0,0,0,0.75);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    text-shadow: 4px 4px 7px rgba(0,0,0,0.75);
+}
+
+.text-time {
+    font-size: 20px;
+}
+
+
