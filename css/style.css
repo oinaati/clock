@@ -2,10 +2,12 @@ body {
     background-image: url(../css/images/background.png);   
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center center;
-    color: rgb(148, 148, 148);
-    font-family: fantasy;
-    font-size: 50px;
+    color: rgb(141, 141, 141);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .container-clock {
@@ -34,12 +36,14 @@ body {
 .title {
     display: flex;
     justify-content: center;
-    font-size: 80px;
-    text-shadow: 4px 4px 7px rgba(0,0,0,0.75);
-}
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.319);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.405), 0 0 10px rgba(255, 255, 255, 0.329);}
 
 .text-time {
     font-size: 20px;
+    margin-top: 15px;
+    color: rgba(148, 148, 148, 0.31);
 }
 
 
